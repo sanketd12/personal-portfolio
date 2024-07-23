@@ -1,0 +1,40 @@
+/* styles/HeroSection.module.css */
+.heroContainer {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f8f8f8;
+  }
+  
+  .imageWrapper {
+    flex-shrink: 0;
+    margin-right: 2rem;
+  }
+  
+  .profileImage {
+    border-radius: 50%;
+  }
+  
+  .contentWrapper {
+    flex-grow: 1;
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #007c95;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .highlight {
+    color: #007c95;
+    font-weight: bold;
+  }
+  
+  
