@@ -15,9 +15,9 @@ export default function Hero() {
             className={styles.profileImage}
           />
         </div>
-        <h1 className={styles.title}>Hi, I'm Sanket!</h1>
+        <h1 className={styles.title}>Hi, I&apos;m Sanket!</h1>
         <p className={styles.description}>
-        I'm a third-year student at the University of Virginia studying <span className={styles.highlight}> Computer Science </span> with a Minor in <span className={styles.highlight}>Data Science</span>.
+        I&apos;m a third-year student at the University of Virginia studying <span className={styles.highlight}> Computer Science </span> with a Minor in <span className={styles.highlight}>Data Science</span>.
         </p>
       </div>
     </div>
