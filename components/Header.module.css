@@ -4,9 +4,11 @@
     align-items: center;
     background-color: white;
     padding: 1rem;
+    height: 60px;
   }
   
   .logo a {
+    font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
     color: black;

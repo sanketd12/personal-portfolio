@@ -1,6 +1,6 @@
 // components/Hero.js
-import Image from 'next/image'
-import styles from './Hero.module.css'
+import Image from 'next/image';
+import styles from './Hero.module.css';
 
 export default function Hero() {
   return (
@@ -21,5 +21,5 @@ export default function Hero() {
         </p>
       </div>
     </div>
-  )
+  );
 }

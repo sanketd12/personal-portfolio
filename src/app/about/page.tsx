@@ -3,7 +3,7 @@ import Header from "../../../components/Header";
 export default function About() {
   return (
     <><Header></Header>
-    <div className="bg-white text-gray-900 min-h-screen">
+    <div className="bg-slate-100 text-gray-900 min-h-screen">
       <main className="max-w-7xl mx-auto px-6 py-16">
         <h1 className="text-5xl font-bold mb-16 text-center">About Me</h1>
         
@@ -23,7 +23,7 @@ export default function About() {
           <h2 className="text-3xl font-semibold mb-6">Skills</h2>
           <div className="flex flex-wrap gap-3">
             {["JavaScript", "React", "Node.js", "Python", "SQL"].map((skill) => (
-              <span key={skill} className="px-4 py-2 bg-gray-100 rounded-full text-sm">{skill}</span>
+              <span key={skill} className="px-4 py-2 bg-white rounded-full text-sm">{skill}</span>
             ))}
           </div>
         </section>

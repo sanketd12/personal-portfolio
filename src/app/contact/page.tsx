@@ -2,7 +2,7 @@ import Header from "../../../components/Header";
 
 export default function Contact() {
     return (
-        <div className="flex flex-col min-h-screen bg-gray-50">
+        <div className="flex flex-col min-h-screen bg-slate-100">
             <Header />
             <section id="contact" className="flex-grow flex items-center justify-center py-10">
                 <div className="max-w-4xl mx-auto px-6 w-full">

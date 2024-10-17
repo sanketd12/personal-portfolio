@@ -4,7 +4,7 @@ export default function Projects() {
     return (
       
       <><Header></Header>
-      <section id="projects" className="bg-white py-20">
+      <section id="projects" className="bg-slate-100 py-20">
         <div className="max-w-4xl mx-auto px-6">
           <h1 className="text-5xl font-bold text-gray-900 mb-12 text-center">Personal Projects</h1>
           <ul className="space-y-12">
