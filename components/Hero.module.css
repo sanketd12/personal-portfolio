@@ -1,44 +1,45 @@
-/* styles/HeroSection.module.css */
 .heroContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    background-color: #f8f8f8;
-    min-height: 100vh;
-  }
-  
-  .contentWrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    max-width: 600px;
-  }
-  
-  .imageWrapper {
-    margin-bottom: 2rem;
-  }
-  
-  .profileImage {
-    border-radius: 50%;
-  }
-  
-  .title {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
-    color: #007c95;
-  }
-  
-  .description {
-    font-size: 1rem;
-    color: #333;
-    margin-bottom: 1rem;
-  }
-  
-  .highlight {
-    color: #007c95;
-    font-weight: bold;
-  }
-  
+  display: flex;
+  height: calc(100vh - 80px); /* Adjust based on your header height */
+  width: 100%;
+}
+
+.imageSection {
+  flex: 1;
+  position: relative;
+}
+
+.profileImage {
+  object-position: center;
+}
+
+.contentSection {
+  flex: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 120%;
+  color: #007483;
+}
+
+.highlight {
+  font-weight: 600;
+}

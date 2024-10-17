@@ -1,42 +1,49 @@
-import styles from './about.module.css'
 import Header from "../../../components/Header";
+
 export default function About() {
   return (
     <><Header></Header>
-    <div className={styles.container}>
-      <h1 className={styles.title}>About Me</h1>
-      
-      <section className={styles.section}>
-        <h2>Experience</h2>
-        <ul className={styles.list}>
-          <li>Software Engineering Intern at TechSur Solutions (Jun 2024-Present)</li>
-          <li>Software Engineer at CargoLabs (Jun 2024-Present)</li>
-
+    <div className="bg-white text-gray-900 min-h-screen">
+      <main className="max-w-7xl mx-auto px-6 py-16">
+        <h1 className="text-5xl font-bold mb-16 text-center">About Me</h1>
+        
+        <section className="mb-16">
+        <h2 className="text-3xl font-semibold mb-6">Experience</h2>
+        <ul className="list-disc pl-5 space-y-4">
+          <li className="text-lg">
+            <span className="font-semibold">Software Engineering Intern</span> at TechSur Solutions (Jun 2024-Present)
+          </li>
+          <li className="text-lg">
+            <span className="font-semibold">Software Engineer</span> at CargoLabs (Jun 2024-Present)
+          </li>
         </ul>
       </section>
-      
-      <section className={styles.section}>
-        <h2>Skills</h2>
-        <ul className={styles.skillList}>
-          <li className={styles.skill}>JavaScript</li>
-          <li className={styles.skill}>React</li>
-          <li className={styles.skill}>Node.js</li>
-          <li className={styles.skill}>Python</li>
-          <li className={styles.skill}>SQL</li>
+        
+        <section className="mb-16">
+          <h2 className="text-3xl font-semibold mb-6">Skills</h2>
+          <div className="flex flex-wrap gap-3">
+            {["JavaScript", "React", "Node.js", "Python", "SQL"].map((skill) => (
+              <span key={skill} className="px-4 py-2 bg-gray-100 rounded-full text-sm">{skill}</span>
+            ))}
+          </div>
+        </section>
+        
+        <section className="mb-16">
+          <h2 className="text-3xl font-semibold mb-6">Education</h2>
+          <p className="text-lg">B.S. in Computer Science, University of Virginia, Charlottesville, VA</p>
+        </section>
 
-        </ul>
-      </section>
-      
-      <section className={styles.section}>
-        <h2>Education</h2>
-        <p>B.S. in Computer Science, University of Virginia, Charlottesville, VA</p>
-      </section>
-      <section className={styles.section}>
-        <h2>Links</h2>
-        <p>LinkedIn</p>
-        <p>GitHub</p>
-        <p>Resume</p>
-      </section>
-    </div></>
+        <section>
+          <h2 className="text-3xl font-semibold mb-6">Links</h2>
+          <div className="space-y-4">
+            {["LinkedIn", "GitHub", "Resume"].map((link) => (
+              <p key={link} className="text-lg text-blue-600 hover:underline cursor-pointer">{link}</p>
+            ))}
+          </div>
+        </section>
+      </main>
+    </div>
+    </>
+
   )
 }

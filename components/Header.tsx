@@ -11,25 +11,30 @@ const Header = () => {
       </div>
       <nav className={styles.nav}>
         <ul>
+        <li>
+            <Link href="/">
+              Home
+            </Link>
+          </li>
           <li>
-            <Link href="#about">
+            <Link href="/about">
               About
             </Link>
           </li>
           <li>
-            <Link href="#projects">
+            <Link href="/projects">
               Projects
             </Link>
           </li>
           <li>
-            <Link href="#contact">
+            <Link href="/contact">
               Contact
             </Link>
           </li>
           <li>
-            <Link href="/public/ResumeSanketDoddabendigere.pdf">
+          <a href="/ResumeSanketDoddabendigere.pdf" target="_blank" rel="noopener noreferrer">
               Resume
-            </Link>
+            </a>
           </li>
         </ul>
       </nav>

@@ -38,7 +38,10 @@ export default function About() {
         <ul className={styles.skillList}>
           <li className={styles.link}>LinkedIn</li>
           <li className={styles.link}>GitHub</li>
-          <li className={styles.link}>Resume</li>
+          <li className={styles.link}><a href="/ResumeSanketDoddabendigere.pdf" target="_blank" rel="noopener noreferrer">
+              Resume
+            </a>
+            </li> 
         </ul>
       </section>
     </div>
