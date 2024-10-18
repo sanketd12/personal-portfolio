@@ -1,5 +1,4 @@
 import Header from "../../../components/Header";
-
 export default function Contact() {
     return (
         <div className="flex flex-col min-h-screen bg-slate-100">
@@ -19,6 +18,7 @@ export default function Contact() {
                         </a>
                     </div>
                 </div>
+            
             </section>
         </div>
     );

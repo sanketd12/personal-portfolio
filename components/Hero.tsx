@@ -1,4 +1,3 @@
-// components/Hero.js
 import Image from 'next/image';
 import styles from './Hero.module.css';
 
@@ -9,8 +8,8 @@ export default function Hero() {
         <Image
           src="/sanketPic.jpeg"
           alt="Profile"
-          layout="fill"
-          objectFit="cover"
+          width={300}
+          height={300}
           className={styles.profileImage}
         />
       </div>
