@@ -11,7 +11,7 @@ const Header = () => {
       </div>
       <nav className={styles.nav}>
         <ul>
-        <li>
+          <li>
             <Link href="/">
               Home
             </Link>
@@ -32,7 +32,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-          <a href="/ResumeSanketDoddabendigere.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/Sanket_Resume__Fall_.pdf" target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </li>

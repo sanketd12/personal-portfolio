@@ -11,7 +11,7 @@ export default function Footer() {
         </a>
       </div>
       <div>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="mx-3">
+        <a href="https://linkedin.com/in/sanketd12" target="_blank" rel="noopener noreferrer" className="mx-3">
           <FontAwesomeIcon icon={faLinkedin} size="3x" color="black" />
         </a>
       </div>

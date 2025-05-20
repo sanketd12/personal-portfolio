@@ -38,7 +38,7 @@ export default function About() {
         <ul className={styles.skillList}>
           <li className={styles.link}>LinkedIn</li>
           <li className={styles.link}>GitHub</li>
-          <li className={styles.link}><a href="/ResumeSanketDoddabendigere.pdf" target="_blank" rel="noopener noreferrer">
+          <li className={styles.link}><a href="/Sanket_Resume__Fall_.pdf" target="_blank" rel="noopener noreferrer">
               Resume
             </a>
             </li> 

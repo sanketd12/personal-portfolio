@@ -195,9 +195,49 @@ export const CloseIcon = () => {
 
 const cards = [
   {
+    description: "AI-Driven Candidate Matching",
+    title: "Maayu",
+    src: "/maayu.png",
+    ctaText: "Learn More",
+    ctaLink: "https://github.com/sanketd12/MaayuBAI24-25-clean",
+    content: () => (
+      <p>
+        A platform that evaluates candidate profiles against open roles, ranks the best fits,
+        and provides recruiters with an intuitive interface for streamlined outreach.
+      </p>
+    ),
+  },
+  {
+    description: "Cloud Project Management",
+    title: "HoosConnect",
+    src: "/projectHub.png",
+    ctaText: "Learn More",
+    ctaLink: "https://github.com/sanketd12/uva-project-management",
+    content: () => (
+      <p>
+                 A centralized workspace where teams can create tasks, share files, and track progress
+                 through a real-time collaborative dashboard.
+      </p>
+    ),
+  },
+  {
+    description: "Interactive RAG Chatbot",
+    title: "Pep Talk",
+    src: "/pepTalk.png",
+    ctaText: "Learn More",
+    ctaLink: "https://ui.aceternity.com/templates",
+    content: () => {
+      return (
+        <p>
+           An interactive RAG chatbot with Flask and React, offering personalized soccer tips inspired by coaches like Pep Guardiola, Sir Alex Ferguson, Arsene Wenger, and Johan Cruyff
+        </p>
+      );
+    },
+  },
+  {
     description: "Movie Recommendation System",
     title: "Reel Recommender",
-    src: "https://assets.aceternity.com/demos/lana-del-rey.jpeg",
+    src: "/recommender.png",
     ctaText: "Learn More",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
@@ -209,19 +249,5 @@ const cards = [
       );
     },
   },
-  {
-    description: "Stock Market Bot",
-    title: "Stock Market Bot",
-    src: "https://assets.aceternity.com/demos/metallica.jpeg",
-    ctaText: "Learn More",
-    ctaLink: "https://ui.aceternity.com/templates",
-    content: () => {
-      return (
-        <p>
-          A predictive stock market analysis tool that leverages natural language processing and machine learning to analyze live market data and news headlines for real-time predictions.
 
-        </p>
-      );
-    },
-  },
 ];
