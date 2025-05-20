@@ -199,7 +199,7 @@ const cards = [
     title: "Maayu",
     src: "/maayu.png",
     ctaText: "Learn More",
-    ctaLink: "https://github.com/sanketd12/MaayuBAI24-25-clean",
+    ctaLink: "https://github.com/sanketd12/MaayuBAI24-25",
     content: () => (
       <p>
         A platform that evaluates candidate profiles against open roles, ranks the best fits,
@@ -210,9 +210,9 @@ const cards = [
   {
     description: "Cloud Project Management",
     title: "HoosConnect",
-    src: "/projectHub.png",
+    src: "/UVA.jpg",
     ctaText: "Learn More",
-    ctaLink: "https://github.com/sanketd12/uva-project-management",
+    ctaLink: "https://github.com/sanketd12/HoosConnect",
     content: () => (
       <p>
                  A centralized workspace where teams can create tasks, share files, and track progress
