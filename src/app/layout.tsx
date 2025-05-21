@@ -21,7 +21,11 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/myicon.png" type="image/png" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} min-h-screen bg-white`}>
+        <div className="pt-[60px] min-h-screen">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }

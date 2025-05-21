@@ -8,7 +8,7 @@ export default function Home() {
       <Header />
       <main className="flex-grow">
         <Hero />
-        
+
       </main>
       <Footer />
     </div>
