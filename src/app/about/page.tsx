@@ -109,7 +109,7 @@ const skills = [
   "FastAPI",
   "Spring Boot",
   "SQL (MySQL/PostgreSQL)",
-  "AWS Lambda",
+  "AWS",
   "Docker",
   "Tailwind CSS",
   "MongoDB",
